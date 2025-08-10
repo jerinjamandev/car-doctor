@@ -10,11 +10,11 @@ const Navbar = () => {
 
     const navitem =
         <>
-            <li className='font-bold text-[15px]'><Link>Home</Link></li>
-            <li className='font-bold text-[15px]'><Link>About</Link></li>
-            <li className='font-bold text-[15px]'><Link>Services</Link></li>
-            <li className='font-bold text-[15px]'><Link>Blog</Link></li>
-            <li className='font-bold text-[15px]'><Link>Contact</Link></li>
+            <li className='font-bold text-[15px]'><Link to={'/'}>Home</Link></li>
+            <li className='font-bold text-[15px]'><Link to={'/about'}>About</Link></li>
+            <li className='font-bold text-[15px]'><Link to={'/services'}>Services</Link></li>
+            <li className='font-bold text-[15px]'><Link to={'/blog'}>Blog</Link></li>
+            <li className='font-bold text-[15px]'><Link to={'/contact'}>Contact</Link></li>
 
         </>
 

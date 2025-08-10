@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FaArrowRight } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 
 const Services = () => {
@@ -52,9 +53,7 @@ const Services = () => {
               </p>
               <div className='flex items-center justify-between gap-5'>
                 <p className="text-lg font-bold text-red-500">${service.price}</p>
-                <button>
-                    <FaArrowRight className='text-red-500' />
-                </button>
+                <button><Link to={'/checkout'}><FaArrowRight className='text-red-500' /></Link></button>
 
               </div>
             </div>
